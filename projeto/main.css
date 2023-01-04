@@ -1,0 +1,181 @@
+* {                                 /* Tudo o que não tiver formatação, será assim! */
+    margin: 0;                      /* Sem margens */
+    padding: 0;                     /* Sem espaçamentos internos */
+    box-sizing: border-box;         /* os valores de padding e border mantém altura e largura dentro dos limites */
+}
+
+header {
+    height: 113px;
+    width: 100%;
+    align-items: center;
+    padding: 35px 0;
+    background-color: #182C61;      
+    color: #ecf0f1
+}
+
+header nav li {                     /*  Necessário identificar a tag */
+    display: inline;                /* inline, itens um do lado do outro */
+    margin-left: 16px;              /* Afasta os itens da margem esquerda */
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color:#ecf0f1;
+}
+
+.container {
+    max-width: 1280px;              /*  Limita o tamanho máximo em 1280px */
+    width: 90%;                   /*   Tamanho de largura máxima do monitor, considerando o max-width */
+    margin: 0 auto;
+    display: flex;              /* Joga o texto para o lado, tirando de baixo */
+    align-items: center;          /* Alinha o texto */
+    justify-content: space-between; /*  Distribuição dos itens do 'container' de forma igualitária <- e -> */
+}
+
+
+.conteudo {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section img {
+    margin-left: 30px;
+    margin-top: 30px; 
+
+}
+
+.conteudo h2 {
+    color: #182C61;
+    font-family: fantasy;
+    font-size: 32px;
+    margin-block: 40px;
+}
+
+.conteudo p {
+    width: auto;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.conteudo li {
+    height: 30px;
+    display: flex;
+    padding:0px;
+    margin:0px;
+
+}
+
+.par_ft p {
+    font-size:18px;
+    width: 100%;
+}
+
+.par_ft ul{
+    display: flex;
+    padding: 0px;
+    
+}
+
+#parte3 {
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    color: #182C61;
+    
+}
+
+.coluna1 h1, h2, h3 {    /* PERGUNTAR O ERRO... */
+    color:#182C61;
+    font-family: fantasy;
+    font-size: 24px;
+    padding-left:30px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+
+.formulario {
+    padding-top:10px;
+    margin-top:10px;
+    width: 100px;
+    height: 36px;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulario input {
+    width: 240px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulario textarea {
+    height: 150px;
+    width: 240px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulario button {
+    width: 240px;
+    margin-left: 30px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #182C61;
+    color: #ecf0f1
+}
+
+.formulario button:hover {
+    width: 240px;
+    margin-left: 30px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0056b3;
+    color: #ecf0f1
+
+}
+
+.coluna2 h2{
+    margin-left: 450px;
+    padding:0;
+    margin-top: 80px;
+}
+.coluna2 li {
+    display: inline;
+    padding: 0px;
+    margin: 100px;
+    
+}
+
+.coluna2 ul {
+    margin-left: 220px;
+    padding:0;
+    margin-left: auto;
+}
+
+.coluna2 img{
+    height: 20px;
+    padding:0;
+    margin:0px;
+    margin-left: 350px;
+    display: inline;
+}
+
+.coluna3 h2 {
+    margin-left: 0;;
+    margin-top: 70px;
+    padding: 0;
+}
