@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,11 +9,19 @@
 </head>
 <body>
     <h1>Cadastro Simples</h1>
-        <p>
-       Nome: <input type="text" placeholder="Seu nome completo" \> <br />
-       E-mail: <input type="email" placeholder="Seu email" \> <br />
-       Senha: <input type="password" placeholder="Insira uma senha" \>
-    </p>
-    <button type="submit">Enviar</button> <button type="reset">Limpar</button>
+      <p>
+	<form>
+       	<label for="nome">Nome:</label>
+		<input type="text" id="nome" placeholder="Seu nome completo" \> <br />
+       	
+		<label for="email">E-mail:</label>
+	 	<input id="email" type="email" placeholder="Seu email" /><br />
+
+       	<label for="senha">Senha:</label>
+		<input type="password" placeholder="Insira uma senha" id="senha">
+    	</p>
+    		<button type="submit">Enviar</button> <button type="reset">Limpar</button>
+	</form>
 </body>
 </html>
+
